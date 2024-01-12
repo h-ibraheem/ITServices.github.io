@@ -1,0 +1,69 @@
+/* Start Variables */
+:root {
+  --main-color: #28a7ea;
+  --text-main-color: #101A24;
+  --text-secondry-color: #101A24;
+  --section-padding: 60px;
+  --section-background: #eeeeee;
+  --main-duration: 0.5s;
+  --main-border: 1px solid rgba(16, 26, 36, 0.20);
+}
+
+/* End Variables */
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter";
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* End Global Rules */
+
+/* start component */
+  .btn {
+    background-color: var(--main-color);
+    color: #FFF;
+    text-align: center;
+    font-family: David Libre;
+    font-size: 15px;
+    padding: 15px 30px;
+    font-style: normal;
+    font-weight: 500; 
+    margin-right: 25px;
+}
+
+ 
+.p-formate{
+    color: #5C6574;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+     
+}
+/* end component */
