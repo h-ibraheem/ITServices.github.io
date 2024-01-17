@@ -47,12 +47,14 @@ ul {
     width: 750px;
   }
 }
+
 /* Medium */
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
+
 /* Large */
 @media (min-width: 1200px) {
   .container {
@@ -61,50 +63,53 @@ ul {
 }
 
 /* start component */
-  .btn {
-    background-color: var(--main-color);
-    color: #FFF;
-    text-align: center;
-    font-size: 15px;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    font-weight: 500; 
-    margin-left: 25px;
-    text-wrap: nowrap;
+.btn {
+  background-color: var(--main-color);
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 25px;
+  text-wrap: nowrap;
 
 }
 
- 
-.p-formate{
-    color: #5C6574;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2;
-     
+
+.p-formate {
+  color: #5C6574;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+
 }
+
 /* end component */
 
 /* start Header */
-header{
+header {
   position: absolute;
   left: 0;
   width: 100%;
   z-index: 2;
 }
- 
-header nav{
+
+header nav {
   z-index: 1;
   border-bottom: 1px solid var(--main-color);
   padding-bottom: 15px;
 }
+
 header .container {
   display: flex;
   align-items: center;
   padding-top: 10px;
- justify-content: space-between;
+  justify-content: space-between;
 }
+
 header .logo {
   z-index: 1;
   display: flex inline;
@@ -112,66 +117,69 @@ header .logo {
   padding-right: 20px;
 }
 
-header .logo img{
+header .logo img {
   width: 80px;
 }
-header .logo span{
+
+header .logo span {
   font-size: 25px;
   color: var(--main-color);
   width: 900;
   padding-left: 10px;
 }
 
-header nav{
+header nav {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: flex-end;
- 
+
 }
-header nav .toggle-menu{
+
+header nav .toggle-menu {
   color: white;
   font-size: 22px;
 }
 
 
 
-header nav ul{
+header nav ul {
   display: flex;
   padding-left: 0;
 }
 
 
-header nav ul li a{
-   
+header nav ul li a {
+
   color: #FFF;
   text-align: center;
-  font-size: 15px; 
+  font-size: 15px;
   text-transform: uppercase;
-  font-weight: 500; 
+  font-weight: 500;
   margin-left: 25px;
-  text-wrap: nowrap ;
+  text-wrap: nowrap;
 
 }
-header nav ul li:first-child{
+
+header nav ul li:first-child {
   margin-left: 0;
 }
 
 /* header media */
 
-@media (min-width:767px){
-  header nav .toggle-menu{
+@media (min-width:767px) {
+  header nav .toggle-menu {
     display: none;
   }
 }
 
 
-@media (max-width:767px){
-  header .logo img{
+@media (max-width:767px) {
+  header .logo img {
     width: 50px;
   }
 
-  header .logo span{
+  header .logo span {
     font-size: 20px;
   }
 
@@ -179,11 +187,11 @@ header nav ul li:first-child{
     border-bottom: none;
   }
 
-  header nav ul{
+  header nav ul {
     display: none;
   }
-  
-  header nav .toggle-menu:hover + ul{
+
+  header nav .toggle-menu:hover+ul {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -191,21 +199,21 @@ header nav ul li:first-child{
     left: 0;
     width: 100%;
     background-color: rgb(0 0 0 /50%);
-   
+
   }
 
   header nav ul li {
     padding: 15px;
   }
 
-  
+
 }
 
 /* End Header */
 
- /* start landing */
- .landing{
-   position: relative;
+/* start landing */
+.landing {
+  position: relative;
   min-width: 100%;
   height: 100vh;
   background-image: url(../image/Landing.avif);
@@ -213,9 +221,10 @@ header nav ul li:first-child{
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  
- }
-.landing .overray{
+
+}
+
+.landing .overray {
   content: "";
   position: absolute;
   left: 0;
@@ -224,13 +233,14 @@ header nav ul li:first-child{
   height: 100%;
   background-color: rgb(0 0 0 /50%);
 }
- .landing .container {
+
+.landing .container {
   position: relative;
   display: flex;
   height: 100vh;
- }
- 
-.landing .intro{
+}
+
+.landing .intro {
   position: absolute;
   left: 0;
   top: 50%;
@@ -239,24 +249,25 @@ header nav ul li:first-child{
   color: white;
 }
 
-.landing .intro h2{
+.landing .intro h2 {
   font-size: 50px;
 
   width: 500px;
   margin-bottom: 20px;
 }
 
-.landing .intro p{
+.landing .intro p {
   margin: 0 0 40px;
   line-height: 1.8;
-  
+
 
 }
-.landing .intro .btn{
+
+.landing .intro .btn {
   margin: 0;
 }
- 
-.landing .media i{
+
+.landing .media i {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -266,84 +277,193 @@ header nav ul li:first-child{
   background-color: white;
   border-radius: 50px;
   border: 3px solid #5C6574;
-  outline: 5px solid ;
+  outline: 5px solid;
 
 }
 
- @media (max-width:767px){
-  .landing .intro{
+@media (max-width:767px) {
+  .landing .intro {
     padding: 15px;
     width: 100%;
   }
 
-  .landing .intro h2{
+  .landing .intro h2 {
     font-size: 30px;
     width: 80%;
-    
+
   }
 
   .landing .media {
     display: none;
   }
 
- }
-  
+}
+
+
+/* End landing */
+
+/* start services */
+.services {
+  padding: 100px 0;
+}
+
+.services .boxs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 30px;
+
+}
+
+.services .boxs .card {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  ;
+}
+
+.services .boxs .card i {
+  font-size: 30px;
+  color: var(--main-color);
+
+}
+
+.services .boxs .card h3 {
+  font-weight: 500;
+}
+
+.services .boxs .card p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5C6574;
+}
+
+.services .boxs .active {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.services .boxs .active p {
+  color: #fff;
+}
+
+.services .boxs .active .btn {
+  background-color: #fff;
+  color: var(--main-color);
+  font-size: 14px;
+
+}
+
+.services .boxs .active .btn i {
+  font-size: 14px;
+}
+
+
+
+/* end services */
+
+/* start About-us */
+.about-us{
+  margin: 60px 0 ;
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.about-us .quote{
+  position: relative;
+}
+
+.about-us .quote img{
+  width: 100%;
+}
+
+.about-us .quote .text {
+  position: absolute;
+  width: 250px;
+  background-color: #28a7ea;
+  bottom: -20px;
+  right: -20px;
+  color: #fff;
+  padding: 20px;
+
+}
+.about-us .quote .text i{
+  font-size: 40px;
+  position: absolute;
+  top: -20px;
+  right: 40px;
+}
+.about-us .quote .text p{
+  font-size: 14px;
+  line-height: 1.8;
+
+}
+
+.about-us .content{
+  padding: 20px;
+}
+
+.about-us .content h1{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.about-us .content h2{
+  width: 300px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.about-us .content > p{
+  color: #bbb;
+  line-height: 1.5;
+}
+
+.about-us .content .txt-quote{
+  margin: 40px 0 40px 30px;
+  padding-left: 20px;
+  border-left: 3px solid var(--main-color);
+}
+
+.about-us .content .txt-quote p:last-child{
+  color: #bbb;
+}
+
+.about-us .content .btn{
+  margin: 0;
+}
+
+.about-us .content ul{
+  margin: 40px 0;
+  padding: 0;
+}
+
+.about-us .content ul li{
+  margin: 10px 0 10px 20px;
+  padding-right: 20px;
+   
+}
+
+.about-us .content ul li::before{
+  content: "\f00c";
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  margin-right: 10px;
+  color: var(--main-color);
+  font-size: 14px;
+
+}
  
- /* End landing */
-
- /* start services */
- .services{
-  padding: 70px 0 ;
- }
-  .services .boxs{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    gap: 30px;
-    
+@media (max-width: 767px){
+  .about-us .quote img{
+    width: 400px;
   }
-
-  .services .boxs .card{
-    background-color: #fff;
-    text-align: center;
-    padding: 20px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+  .about-us .quote .text {
+    right: 20px;
   }
+}
 
-  .services .boxs .card i{
-    font-size: 30px;
-    color: var(--main-color);
+/* End About-us */
 
-  }
-
-  .services .boxs .card h3{
-    font-weight: 500;
-  }
-  .services .boxs .card p{
-    font-size: 14px;
-    line-height: 1.8;
-    color: #5C6574;
-  }
-
-  .services .boxs .active{
-    background-color: var(--main-color);
-    color: #fff;
-  }
-
-  .services .boxs .active p{
-    color: #fff;
-  }
-
-  .services .boxs .active .btn{
-    background-color: #fff;
-    color: var(--main-color);
-    font-size: 14px;
-
-  }
-
-  .services .boxs .active .btn i{
-    font-size: 14px;
-  }
-
-
-
- /* end services */
