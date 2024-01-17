@@ -1,26 +1,4 @@
 /* Small */
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-
-  header nav .toggle-menu {
-    display: none;
-  }
-
-}
-@media (max-width:768px) {
-
-}
-
-@media (max-width:769px) {
-
-
-   header nav ul {
-    display: none;
-
-  }
- 
 
   header .container .booktbl a {
     padding: 10px;
