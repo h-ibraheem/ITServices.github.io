@@ -686,7 +686,114 @@ header nav ul li:first-child {
     width: 100%;
     height: 600px;
   }
-
-
 }
 /* End Client */
+
+/* start solution */
+
+
+.solution {
+  padding: 100px 0;
+}
+
+.solution .header{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.solution .header h3{
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+
+}
+
+.solution .header p{
+  width: 60%;
+  margin: 10px auto;
+  color: #bbb;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.solution .cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 50px;
+}
+
+.solution .card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.solution .cards .card .card-img img{
+ 
+  width: 345px;
+  height: 320px;
+}
+ 
+.solution .card-content{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: var(--main-color);
+  
+}
+
+.solution .card-content i{
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+.solution .card-content .text h4{
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.solution .card-content .text p{
+  margin-top: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.solution .details{
+  padding: 10px;
+}
+
+.solution .details p{
+  margin-top: 0;
+  color: #aaa;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.solution .details a{
+  color: var(--main-color);
+  text-transform: uppercase;
+  font-size: 14px;
+
+}
+
+.solution .last{
+  margin-top: 50px;
+  color: #aaa;
+  text-align: center;
+}
+
+.solution .last a{
+  color: var(--main-color);
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-size: 14px;
+  
+}
+
+.solution .last a i{
+  margin-left: 8px;
+  font-size: 15px;
+}
+/* start solution */
